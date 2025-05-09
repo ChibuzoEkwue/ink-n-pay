@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ink n Pay
+Your all-in-one invoicing toolkit—built
 
-## Getting Started
+### Description
+This project is a modern, full-stack web application designed to provide a seamless experience for generating, paying and tracking invoices. Built with Next.js and MongoDB, it combines a responsive frontend with a secure and scalable backend architecture.
 
-First, run the development server:
+### Tech stack 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js 
+- MongoDB
+- Next Auth
+- Tailwind
+- ShadUI
+- Resend
+- React email
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Steps to run on your local machine
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ ```bash
+ git clone https://github.com/ChibuzoEkwue/ink-n-pay.git .
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ npm install
 
-## Learn More
+ npm run dev
+ ```
 
-To learn more about Next.js, take a look at the following resources:
+ ### Env 
+ create a .env.local file and generate keys with the following keys
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- RESEND_KEY= 
+- MONGODB_URI=
+- AUTH_SECRET=  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
